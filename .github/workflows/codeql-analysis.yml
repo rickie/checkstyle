@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   analyze:
-    if: github.repository == 'checkstyle/checkstyle'
+    if: github.repository == 'rickie/checkstyle'
     name: Analyze
     runs-on: ubuntu-latest
 
