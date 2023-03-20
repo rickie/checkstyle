@@ -14,7 +14,7 @@ concurrency:
 jobs:
   # this execution should stay on GitHub actions due to time/ memory limits in other CI
   shellcheck:
-    if: github.repository == 'checkstyle/checkstyle'
+    if: github.repository == 'rickie/checkstyle'
     runs-on: ubuntu-latest
     steps:
       - name: Install dependencies

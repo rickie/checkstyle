@@ -12,7 +12,7 @@ concurrency:
 
 jobs:
   generate:
-    if: github.repository == 'checkstyle/checkstyle'
+    if: github.repository == 'rickie/checkstyle'
     runs-on: ubuntu-22.04
     steps:
       - name: Download checkstyle

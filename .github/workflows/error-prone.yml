@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   error-prone:
-    if: github.repository == 'checkstyle/checkstyle'
+    if: github.repository == 'rickie/checkstyle'
     runs-on: ubuntu-latest
     steps:
       - name: Set up JDK 11

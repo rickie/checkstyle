@@ -13,7 +13,7 @@ concurrency:
 
 jobs:
   test:
-    if: github.repository == 'checkstyle/checkstyle'
+    if: github.repository == 'rickie/checkstyle'
     strategy:
       matrix:
         profile:

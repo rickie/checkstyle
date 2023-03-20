@@ -19,7 +19,7 @@ concurrency:
 
 jobs:
   bump:
-    if: github.repository == 'checkstyle/checkstyle'
+    if: github.repository == 'rickie/checkstyle'
     name: Bump license year
     runs-on: ubuntu-latest
     steps:
